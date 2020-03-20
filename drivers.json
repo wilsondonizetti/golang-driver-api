@@ -1,0 +1,24 @@
+{
+    "drivers": [
+        {
+            "id": "1",
+            "name": "Driver One"
+        },
+        {
+            "id": "2",
+            "name": "Driver Two"
+        },
+        {
+            "id": "3",
+            "name": "Driver Three"
+        },
+        {
+            "id": "4",
+            "name": "Driver Four"
+        },
+        {
+            "id": "5",
+            "name": "Driver Five"
+        }
+    ]
+}
