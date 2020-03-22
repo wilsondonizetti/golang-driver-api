@@ -1,5 +1,5 @@
 {
-    "PrivateKeyPath": "C:\\Desenvolvimento\\git\\golang-driver-api\\settings\\keys\\private_key",
-    "PublicKeyPath": "C:\\Desenvolvimento\\git\\golang-driver-api\\settings\\keys\\public_key.pub",
+    "PrivateKeyPath": "C:/Desenvolvimento/git/golang-driver-api/settings/keys/private_key",
+    "PublicKeyPath": "C:/Desenvolvimento/git/golang-driver-api/settings/keys/public_key.pub",
     "JWTExpirationDelta": 72
   }

@@ -55,14 +55,13 @@ func (backend *JWTAuthenticationBackend) GenerateToken(userUUID string) (string,
 }
 
 func (backend *JWTAuthenticationBackend) Authenticate(user *models.User) bool {
-	hashedPassword, _ := bcrypt.GenerateFromPassword([]byte("123456"), 10)
-
+	passwordDefautlTest := "123456"
+	hashedPassword, _ := bcrypt.GenerateFromPassword([]byte(passwordDefautlTest), 14)
 	testUser := models.User{
 		UUID:     uuid.New(),
 		Username: "wilson",
 		Password: string(hashedPassword),
 	}
-
 	return user.Username == testUser.Username && bcrypt.CompareHashAndPassword([]byte(testUser.Password), []byte(user.Password)) == nil
 }
 
